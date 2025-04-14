@@ -16,6 +16,8 @@ $app->get('/alunni/{id}', "AlunniController:show");
 $app->post('/classi/{classe_id}/alunni', "AlunniController:create");
 
 $app->put('/classi/{id}/alunni', "AlunniController:update");
+
+//$app->delete();
 //Classi
 
 $app->get('/classi', "ClassiController:index");
